@@ -16,3 +16,40 @@ useCallback(callback, dependencies)
 2. 의존성 배열이 변경된 경우에 현재 의존성 배열을 업데이트 합니다.
 3. 새로운 `callback` 함수로 memoized된 `callback`함수를 업데이트 합니다.
 4. memoized 된 `callback`함수를 반환합니다.
+
+<br>
+
+# 실행방법
+<br>
+
+## 1. 프로젝트 클론받기!
+
+터미널에서 아래의 Git 명령어를 이용하여 프로젝트를 클론(다운로드)!
+
+```sh
+git clone 프로젝트_GIT_URI
+```
+
+> 프로젝트\_GIT_URI는 Github useCallback 저장소의 메인 페이지에서 초록색 `<> Code` 버튼을 클릭하시면 확인할 수 있음!
+
+<br>
+
+## 2. 관련 의존성 패키지를 설치!
+
+터미널의 useCallback 디렉토리 내에서 아래 명령어를 실행!
+
+```sh
+npm install
+```
+
+<br>
+
+## 3. 로컬 서버 실행!
+useCallback 디렉토리에서 아래 명령어를 실행!
+
+```sh
+npm run dev
+```
+<br>
+<br>
+<br>
